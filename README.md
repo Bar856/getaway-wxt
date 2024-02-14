@@ -28,3 +28,7 @@ npm run dev
 ```
 
 #### Note: data is not real
+
+### ScreenShots
+![dark](https://github.com/Bar856/getaway-wxt/assets/73421962/425dc16e-16db-4d56-84be-e964fc2d8f58)
+![light](https://github.com/Bar856/getaway-wxt/assets/73421962/b0f19268-f6e1-4608-903c-3e2fdecac57e)
