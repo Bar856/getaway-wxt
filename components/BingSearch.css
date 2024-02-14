@@ -1,0 +1,26 @@
+
+.bing-search-box {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.bing-search-box input[type="text"] {
+    width: 400px;
+    padding: 10px;
+    border: 2px solid #0078d4; 
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+.bing-search-box button[type="submit"] {
+    padding: 10px 20px;
+    border: 2px solid #0078d4;
+    background-color: #0078d4;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    font-size: 16px;
+}
+.bing-search-box button[type="submit"]:hover {
+    background-color: #005a9e;
+}
+  
