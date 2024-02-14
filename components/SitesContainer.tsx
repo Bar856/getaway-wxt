@@ -5,6 +5,8 @@ import { Site, BookmarkNode } from '@/types';
 
 import SiteCard from '@/components/SiteCard';
 
+// component that renders sites containers by type (bookmarks or topSites)
+
 const SitesContainer: React.FC<SiteContainerProps> = ({typeOfData}) => {
     
     const [sites, setSites] = useState<Site[]>([]);

@@ -5,6 +5,9 @@ import './BingSearch.css';
 
 const BingSearch = () => {
     const [searchQuery, setSearchQuery] = useState('');
+    // Using encodeURIComponent ensures that the searchQuery is correctly 
+    // encoded for inclusion in a URL, handling special characters that 
+    // might otherwise break the URL or change its meaning.
 
     const handleSearch = (e: any) => {
         e.preventDefault();
@@ -22,7 +25,7 @@ const BingSearch = () => {
                 type="text"
                 value={searchQuery}
                 onChange={setSearchFn}
-                placeholder="Search Bing"
+                placeholder="Bing Search"
             />
             <button type="submit">Search</button>
         </form>

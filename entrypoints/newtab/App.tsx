@@ -8,10 +8,13 @@ import SitesContainer from '@/components/SitesContainer';
 
 import { mockHotelDeals, mockFlightDeals } from './data';
 
+// new tab main app
+
 function App() {
   const [showFlights, setShowFlights] = useState<boolean | null>(true)
   const [showHotels, setShowHotels] = useState<boolean | null>(true)
   
+  // check settings from pop up window and get them from local storage
   useEffect(() => {
     const checkSettingsFromPopup = async() =>{
       setShowFlights(await storage.getItem('local:showFlights'))
@@ -20,7 +23,7 @@ function App() {
     checkSettingsFromPopup()
   }, [])
   
-  
+  // watch for popup window changes to create responsive UI
   useEffect(() => {
     const unWatchForFlightsChanges = storage.watch<boolean>('local:showFlights', (newState, oldState) => {
       setShowFlights(newState)
@@ -46,14 +49,18 @@ function App() {
         <span className="text-red-500">a</span> 
         <span className="text-blue-300">y</span> 
       </h2>
+      
       <BingSearch/>
+      
       <div className='mr-10 ml-10 mb-10'>
         <q className='italic text-lg'>Hearing about that endless Cali coastline, where the waves are always prime and the vibes are chill, got me itching to bounce and soak up some of that laid-back sunshine life ✈️ </q>
       </div>
+      
       <div className='flex flex-row gap-10 m-10'>
         {showFlights && <DealsCard data={mockFlightDeals} typeOfData='flights' title='Hot Flight Deals'/>}
         {showHotels && <DealsCard data={mockHotelDeals} typeOfData='hotels' title='Hot Hotel Deals'/>}
       </div>
+      
       <SitesContainer typeOfData='Bookmarks' />
       <SitesContainer typeOfData='Most Recent' />
     </>

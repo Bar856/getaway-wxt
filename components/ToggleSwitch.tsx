@@ -5,6 +5,8 @@ interface Props {
     checked: boolean;
 }
 
+// component that renders toggle switch on popup windows
+
 const ToggleSwitch: React.FC<Props> = ({onChange, checked}) => {
   return (
     <label className="switch">

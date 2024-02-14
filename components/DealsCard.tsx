@@ -1,6 +1,8 @@
 import React from 'react'
 import { CardProps, FlightDeal, HotelDeal } from '@/types';
 
+// components renders deals cards (flights and hotels)
+
 const DealsCard: React.FC<CardProps> = ({title, data, typeOfData}) => {
   return (
     <div className="deals-card">

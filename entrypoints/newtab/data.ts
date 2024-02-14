@@ -1,3 +1,5 @@
+// data is not real
+
 export const mockHotelDeals = [
     { id: 1, city: 'New York', hotel: 'Hotel Central', price: '$200' },
     { id: 2, city: 'Paris', hotel: 'Le Relax', price: '$150' },
