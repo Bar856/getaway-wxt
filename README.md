@@ -1,6 +1,9 @@
 # Getaway Web Extension
 Revolutionize your new tab page with an all-in-one extension: Quick Bing searches, unbeatable hot flight and hotel deals, plus instant access to your top sites and bookmarks. Seamless, personalized browsing at your fingertips – Unlimited exploration awaits! 
 
+### download link
+[getaway-1.0.0-chrome.zip](https://github.com/Bar856/getaway-wxt/files/14289481/getaway-1.0.0-chrome.zip)
+
 ## Project Structure
 entrypoints - folder contains newtab, popup and background folders and devtools file. 
 1. background - set the default settings when installing the extension. 
