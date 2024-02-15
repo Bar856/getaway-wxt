@@ -3,6 +3,7 @@ Revolutionize your new tab page with an all-in-one extension: Quick Bing searche
 
 ### download link
 [getaway-1.0.0-chrome.zip](https://github.com/Bar856/getaway-wxt/files/14289481/getaway-1.0.0-chrome.zip)
+unpack zip file on local folder => Go to Chrome Extension Manager => load unpacked Extension => enjoy
 
 ## Project Structure
 entrypoints - folder contains newtab, popup and background folders and devtools file. 
