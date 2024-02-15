@@ -22,7 +22,6 @@ Total size: 162.76 kB
 2. topSites
 3. storage
 4. tabs
-5. scripting
 
 ### Installation & Dev Guide
 ```
