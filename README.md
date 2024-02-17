@@ -2,7 +2,7 @@
 Revolutionize your new tab page with an all-in-one extension: Quick Bing searches, unbeatable hot flight and hotel deals, plus instant access to your top sites and bookmarks. Seamless, personalized browsing at your fingertips – Unlimited exploration awaits! 
 
 ### download link
-[getaway-1.0.0-chrome.zip](https://github.com/Bar856/getaway-wxt/files/14319871/getaway-1.0.0-chrome.zip)
+[getaway-2.0.0-chrome.zip](https://github.com/Bar856/getaway-wxt/files/14320187/getaway-2.0.0-chrome.zip)
 
 unpack zip file on local folder => Go to Chrome Extension Manager => load unpacked Extension => enjoy
 
