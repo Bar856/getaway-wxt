@@ -17,7 +17,7 @@ entrypoints - folder contains newtab, popup and background folders and devtools 
 Tailwind CSS, React, WXT
 
 ### Extension Size
-Total size: 162.76 kB    
+Total size: 1.36 MB     
 
 ### Permission Needed:
 1. bookmarks
