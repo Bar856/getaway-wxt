@@ -4,8 +4,6 @@ a {
   text-decoration: inherit;
 }
 body {
-  margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -30,33 +28,47 @@ button {
   flex-wrap: wrap;
   gap: 10px;
 }
+.bookmark-icon {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.5);
+  height: 64px;
+  width: 64px;
+  margin: 0 auto;
+  padding: 0.2rem;
+}
+.bookmarks-container {
+  flex-wrap: nowrap;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 .site-card {
-  border-radius: 8px;
   padding: 10px;
+  margin: 5px;
   width: 200px;
-  height: 100px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
 }
-.site-card a {
+.site-card p {
   text-decoration: none;
   font-weight: bold;
+  padding-top: 10px;
 }
-.bookmark-icon {
-  background-color: #ddd; 
-  border-radius: 50%;
-  height: 40px; 
-  width: 40px; 
-  margin: 0 auto;
-}
+
 .deals-card {
   font-family: Arial, sans-serif;
   padding: 20px;
   border-radius: 8px;
-  min-width: 300px;
-  max-width: 600px;
+  min-width: 350px;
+  max-width: 700px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: auto;
 }
 .deals-card ul {
@@ -67,30 +79,28 @@ button {
 .deals-card li {
   margin-bottom: 10px;
   padding: 10px;
+  background-color: #393939;
+  box-shadow: 0 2px 4px gba(60, 60, 60, 0.1);
   border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.8rem;
 }
 .deals-card .price {
   color: #2b971f;
   float: right;
 }
 .deals-card, .site-card {
-    background-color: #0e0d0d;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.deals-card li {
-  background-color: #393939;
-  box-shadow: 0 2px 4px rgba(60, 60, 60, 0.1);
-}
-.deals-card {
-    background-color: #0e0d0d;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.2);
 }
 .deals-card h2 {
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .site-card:hover, .deals-card li:hover {
-  filter: drop-shadow(0 0 0.2em #e0e3e0e0);
+  filter: drop-shadow(0 0 0.1em #e0e3e0e0);
   cursor: pointer;
 }
 
@@ -100,19 +110,19 @@ button {
     background-color: #ffffff;
   }
   .deals-card, .site-card {
-      background-color: #cbcbcbb3;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   } 
   
   .deals-card h2 {
       margin-bottom: 20px;
   }
   .deals-card li {
-      background-color: #e9f8f8;
-      box-shadow: 0 2px 4px rgba(162, 162, 162, 0.1);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 4px rgba(162, 162, 162, 0.1);
   }
   .site-card:hover, .deals-card li:hover {
-    filter: drop-shadow(0 0 0.1em #3f3f3f);
+    filter: drop-shadow(0 0 0.1em rgba(255, 255, 255, 0.6));
   }
 }
   

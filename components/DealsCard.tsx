@@ -6,7 +6,7 @@ import { CardProps, FlightDeal, HotelDeal } from '@/types';
 const DealsCard: React.FC<CardProps> = ({title, data, typeOfData}) => {
   return (
     <div className="deals-card">
-      <h2 className='text-lg'>{title}</h2>
+      <h2 className='text-lg text-black'>{title}</h2>
       <ul>
         {
           typeOfData === 'flights' ? (

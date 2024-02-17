@@ -2,6 +2,7 @@
 export interface Site {
     title?: string | undefined;
     url: string;
+    last?: boolean;
 }
 
 export interface CardProps {
