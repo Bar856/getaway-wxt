@@ -66,9 +66,9 @@ function App() {
         </div>
         <div className='m-4'>
           <h3 className='p-2'>Background Image</h3>
-          <select onChange={changeBg} value={bg || 'assets/bg1.webp'}>
-            <option value="assets/bg1.webp">One</option>
-            <option value="assets/bg2.webp">Two</option>
+          <select className='h-8 w-48' onChange={changeBg} value={bg || 'assets/bg1.webp'}>
+            <option value="assets/bg1.webp">Nice Beach</option>
+            <option value="assets/bg2.webp">Beautiful View</option>
           </select>
         </div>
       </div>

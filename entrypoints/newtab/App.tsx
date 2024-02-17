@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div className='root' style={{backgroundImage:`url('${bg}')`}} >
-      <h2 className='text-4xl mb-4'>
+      <h2 className='text-6xl mb-4'>
         <span className="text-blue-500">G</span> 
         <span className="text-red-500">e</span> 
         <span className="text-yellow-500">t</span> 

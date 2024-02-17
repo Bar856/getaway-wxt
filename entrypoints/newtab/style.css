@@ -7,6 +7,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  
 }
 h1 {
   font-size: 3.2em;
@@ -69,6 +70,7 @@ button {
   min-width: 350px;
   max-width: 700px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: #1a1a1a 1px solid;
   margin: auto;
 }
 .deals-card ul {
@@ -79,19 +81,20 @@ button {
 .deals-card li {
   margin-bottom: 10px;
   padding: 10px;
-  background-color: #393939;
   box-shadow: 0 2px 4px gba(60, 60, 60, 0.1);
   border-radius: 5px;
   font-weight: bold;
+  border: #1a1a1a 1px solid;
   font-size: 0.8rem;
 }
 .deals-card .price {
-  color: #2b971f;
+  color: #004c10;
   float: right;
 }
 .deals-card, .site-card {
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: #1a1a1a 1px solid;
   background: rgba(255, 255, 255, 0.2);
 }
 .deals-card h2 {

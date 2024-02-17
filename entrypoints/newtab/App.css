@@ -1,9 +1,6 @@
 #root {
-  /* max-width: 100vw; */
   margin: 0 auto;
-  /* padding: 2rem; */
   text-align: center;
-  /* background-image: url("@/assets/bg2.webp"); */
   
 }
 .root {
@@ -11,5 +8,4 @@
   padding: 2rem;
   background-size: cover; 
   background-position: center;
-  background: blur(10px);
 }
