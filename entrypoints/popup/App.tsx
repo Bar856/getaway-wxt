@@ -39,14 +39,24 @@ function App() {
   
   return (
     <>
-      <h2 className='text-2xl mb-16'>
-        Getaway Settings
-      </h2>
-      <div className='flex flex-row gap-8'>
-        <h3>Show Hot Flight Deals</h3>
-        <ToggleSwitch checked={showFlights} onChange={toggleFlights} />
-        <h3>Show Hot Hotels Deals</h3>
-        <ToggleSwitch checked={showHotels} onChange={toggleHotels} />
+      <div >
+        <h2 className='text-4xl mb-16'>
+          <span className="text-blue-500">G</span> 
+          <span className="text-red-500">e</span> 
+          <span className="text-yellow-500">t</span> 
+          <span className="text-blue-500">a</span> 
+          <span className="text-green-500">w</span> 
+          <span className="text-red-500">a</span> 
+          <span className="text-blue-300">y</span> 
+        </h2>
+        <div className='m-4'>
+          <h3 className='p-2'>Show Hot Flight Deals</h3>
+          <ToggleSwitch checked={showFlights} onChange={toggleFlights} />
+        </div>
+        <div className='m-4'>
+          <h3 className='p-2'>Show Hot Hotels Deals</h3>
+          <ToggleSwitch checked={showHotels} onChange={toggleHotels} />
+        </div>
       </div>
     </>
   );
