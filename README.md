@@ -34,7 +34,7 @@ npm run dev
 #### Note: data is not real
 
 ### ScreenShots
-![Screenshot 2024-02-17 at 20 37 53](https://github.com/Bar856/getaway-wxt/assets/73421962/c962f600-a595-4b60-8d6c-a937e89d83cb)
-![Screenshot 2024-02-17 at 20 37 38](https://github.com/Bar856/getaway-wxt/assets/73421962/5c5c6548-5cad-404d-8b7d-a23ede61ebb3)
+<img width="1497" alt="Screenshot 2024-02-17 at 22 43 21" src="https://github.com/Bar856/getaway-wxt/assets/73421962/f8e8fb3c-e471-4233-bddc-a5263191856d">
+
 
 
