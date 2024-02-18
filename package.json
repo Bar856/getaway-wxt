@@ -2,7 +2,7 @@
   "name": "getaway",
   "description": "Revolutionize your new tab page with an all-in-one extension: Quick Bing searches, unbeatable hot flight and hotel deals, plus instant access to your top sites and bookmarks. Seamless, personalized browsing at your fingertips – Unlimited exploration awaits!",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.1",
   "type": "module",
   "scripts": {
     "dev": "wxt",
