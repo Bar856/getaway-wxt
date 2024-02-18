@@ -54,7 +54,7 @@ button {
   height: 150px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
 }
 .site-card p {
